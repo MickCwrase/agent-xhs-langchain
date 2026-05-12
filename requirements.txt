@@ -1,0 +1,20 @@
+# Core LangChain and LangGraph dependencies
+langchain[openai]>=1.1.2
+langgraph>=1.0.4
+
+# Web framework and server
+fastapi>=0.104.1
+uvicorn>=0.24.0
+
+# Data validation and typing
+pydantic>=2.5.0
+typing-extensions>=4.5.0
+
+# Environment and configuration
+python-dotenv>=1.2.1
+
+# Redis for task management and caching
+redis>=4.5.0
+
+# Web search tool (optional, for base_agent extended functionality)
+# tavily-python>=0.7.14
